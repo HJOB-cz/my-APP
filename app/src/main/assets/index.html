@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanoce</title>
+    <style>
+        body{
+            background-color: #1a1a1a;
+            margin: 0;
+            font-family:Arial;
+        }
+        #celek{
+            width: 100%;
+            height: 100%;
+            background-color:#1a1a1a;
+        }
+        #top{
+            background-color:blueviolet;
+            width:100%;
+            height:150px;
+            margin-bottom:0px;
+            font-family:Arial;
+        }
+        #title{
+            color:rgb(68, 204, 197);
+            font-size:xxx-large;
+            font-family:Arial;
+        }
+        #formalita{
+            color: whitesmoke;
+            font-family:Arial;
+        }
+        #hlavni {
+            background-color: black;
+            width: 100%;
+            height: auto; /* Changed from 60% so content isn't cut off */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        #nadpis_main{
+            color:aqua;
+            font-size:xx-large;
+            font-family:Arial;
+        }
+        .obrazky{
+            max-width: 100%;
+            height: auto;
+            max-height: 300px;
+            display: block;
+            margin: 20px auto 0 auto;
+        }
+        #popis{
+            margin-bottom:0px;
+            font-family:Arial;
+        }
+        .popisky{
+            color:#2b5799;
+            font-family:Arial;
+        }
+        .cena{
+            color:#2b5799;
+            margin-left:15px;
+            font-family:Calibri;
+        }
+    </style>
+</head>
+<body>
+<div class="box" id="celek">
+    <div class="box" id="top">
+        <h1 class="nadpis" id="title">Můj vánoční seznam</h1>
+        <div class="box" id="popis">
+            <h2 id="formalita">Toto je můj vánoční seznam na rok 2026</h2>
+        </div>
+    </div>
+    <div class="box" id="hlavni">
+        <h1 id="nadpis_main">Mnou postavený seznam :)</h1>
+        <div class="box" id="rassberry pi">
+            <a href="https://rpishop.cz/554053/raspberry-pi-pico-2-w/">
+                <img alt="Raspberry Pi Pico 2W" src="https://rpishop.cz/wp-content/uploads/2024/10/RPI012_1.png" class="obrazky">
+            </a>
+            <h2 class="popisky">Raspberry pi Pico 2W</h2>
+            <p class="popisky">Studijní účely</p>
+            <p class="cena"> Cena: 209Kč</p>
+        </div>
+        <div class="box" id="fukar">
+            <a href="https://www.amazon.com/WOLFBOX-MF50-Electric-Duster-110000RPM-Adjustable/dp/B0DSW7R4VN/ref=pd_rhf_se_s_pd_sbs_rvi_d_sccl_2_1/136-0506632-3642426?psc=1">
+                <img src="https://m.media-amazon.com/images/I/713BEhBxXWL._AC_SX425_.jpg" alt="Ruční dmychadlo">
+            </a>
+            <h2 class="popisky">Ruční dmychadlo</h2>
+            <p class="popisky">Čištění PC</p>
+            <p class="cena">Cena: 500Kč</p>
+        </div>
+        <div class="box" id="case">
+            <a  href="https://www.datart.cz/case-be-quiet-light-base-900-fx-bgw72-bila.html">
+                <img alt="Be quet Light base 900FX Case" src="https://image.datart.cz/foto/500/2/9/4/product_6738492.jpg" class="obrazky">
+            </a>
+            <h2 class="popisky">Be quiet Light base 900FX Case</h2>
+            <p class="popisky">Pro flexibilitu buildu</p>
+            <p class="cena">Cena: 4 599Kč - můj příplatek</p>
+        </div>
+        <div class="box" id="kabel2">
+            <a href="https://rpishop.cz/591882/pico-dongle-lite/">
+                <img alt="Dongle, redukce z USB-A na Micro-USB" class="obrazky" src="https://rpishop.cz/wp-content/uploads/2025/02/CON056_1.jpeg">
+            </a>
+            <h2 class="popisky">Pico Dongle Lite</h2>
+            <p class="popisky">Propojení Rasp</p>
+            <p class="cena">99Kč</p>
+        </div>
+        <div class="box" id="pouzdro">
+             <a href="https://www.alza.cz/spigen-rugged-armor-black-xiaomi-redmi-note-12-5g-poco-x5-5g-d7706854.html">
+                 <img src="https://image.alza.cz/products/SPICc993/SPICc993.jpg?width=500&height=500" alt="Spigen Rugged Armor Black" class="obrazky">
+             </a>
+            <h2 class="popisky">Spigen Rugged Armor Black</h2>
+            <p class="popisky">Pro ochranu telefonu a ruky</p>
+            <p class="cena">459Kč</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
